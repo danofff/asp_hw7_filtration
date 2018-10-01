@@ -25,6 +25,8 @@ namespace asp_hw7_filtration.Models
         {
         }
 
+        public DbSet<MyVisitor> Visitors { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

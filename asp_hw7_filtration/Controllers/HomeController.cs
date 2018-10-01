@@ -22,6 +22,7 @@ namespace asp_hw7_filtration.Controllers
             return View();
         }
 
+        [LogVisitors]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
